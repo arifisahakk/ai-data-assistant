@@ -38,7 +38,17 @@ With the virtual environment active, install the necessary libraries using the p
 pip install -r requirements.txt
 ```
 
-**5. Run the application**
+
+**5. Set up your Google Gemini API Key**
+This project requires a free Google Gemini API key to run.
+* Go to [Google AI Studio](https://aistudio.google.com/app/apikey) and click **Create API key**.
+* In the main folder of this project on your computer, create a new file named exactly `.env`.
+* Open the `.env` file and add your new key like this:
+  ```text
+  GOOGLE_API_KEY=paste_your_actual_api_key_here
+  ```
+
+**6. Run the application**
 ```bash
 streamlit run app.py
 ```
