@@ -11,7 +11,7 @@ Because the `venv` (virtual environment) is not included in this repository, you
 **1. Clone the repository**
 Open your terminal and download the code:
 ```bash
-git clone [https://github.com/arifisahakk/ai-data-assistant.git](https://github.com/arifisahakk/ai-data-assistant.git)
+git clone https://github.com/arifisahakk/ai-data-assistant.git
 cd ai-data-assistant
 ```
 
