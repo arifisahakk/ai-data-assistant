@@ -1,2 +1,10 @@
-venv/
+# Secrets
 .env
+
+# Personal data
+public_applications.json
+
+# Python / environment
+venv/
+__pycache__/
+*.pyc
